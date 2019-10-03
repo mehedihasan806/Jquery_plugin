@@ -1,0 +1,68 @@
+body{
+	padding-bottom: 100px;
+}
+#counter, #tiltedpage{
+	background-color: #000;
+	color: #fff;
+}
+#Curved{
+	background-color: #febc38 ;
+}
+#tiltedpage{
+	padding-bottom: 100px;
+}
+.parallax-window {
+    min-height: 400px;
+    background: transparent;
+}
+/*curved start*/
+#text1
+{
+    margin:0;
+    overflow: hidden;
+    font: normal normal normal 2.0em/1.5 'Open Sans Light', sans-serif;
+    color: #ffffff;
+    background-color: #3fafee;
+}
+/*curveed end  */
+/*tiltedpage scroll*/
+/*slick*/
+ * {
+      box-sizing: border-box;
+    }
+
+    .slider {
+        width: 50%;
+        margin: 100px auto;
+    }
+
+    .slick-slide {
+      margin: 0px 20px;
+    }
+
+    .slick-slide img {
+      width: 100%;
+    }
+
+    .slick-prev:before,
+    .slick-next:before {
+      color: black;
+    }
+
+
+    .slick-slide {
+      transition: all ease-in-out .3s;
+      opacity: .2;
+    }
+    
+    .slick-active {
+      opacity: .5;
+    }
+
+    .slick-current {
+      opacity: 1;
+    }
+
+/*isotop     */
+.grid-item { width: 25%; }
+.grid-item--width2 { width: 50%; }
